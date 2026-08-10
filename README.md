@@ -1,4 +1,4 @@
-# The Semantic Knowledge Hub (SKH)
+# Isomorph: The Deterministic Semantic Suite
 > *A deterministic, mathematically-grounded neuro-symbolic platform bridging Generative AI and Enterprise Knowledge Graphs.*
 
 ---
@@ -184,8 +184,8 @@ flowchart TD
 
 ### Cloning with All Submodules
 ```bash
-git clone --recursive git@github.com:anpag/semantic-knowledge-hub.git
-cd semantic-knowledge-hub
+git clone --recursive git@github.com:anpag/isomorph-semantic-suite.git
+cd isomorph-semantic-suite
 ```
 
 If you have already cloned without submodules:

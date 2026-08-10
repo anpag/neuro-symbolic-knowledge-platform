@@ -1,7 +1,7 @@
 .PHONY: init update deploy-infra test-agents serve-ui compile-dataform help
 
 help:
-	@echo "Semantic Knowledge Hub (SKH) - Developer Commands:"
+	@echo "Isomorph Semantic Suite - Developer Commands:"
 	@echo "  make init               - Initialize and update all git submodules"
 	@echo "  make update             - Pull latest changes across all submodules"
 	@echo "  make deploy-infra       - Apply Terraform infrastructure"
