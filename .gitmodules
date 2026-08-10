@@ -1,0 +1,15 @@
+[submodule "extraction-agents"]
+	path = extraction-agents
+	url = git@github.com:anpag/semantic-extraction-agents.git
+[submodule "dataform-pipeline"]
+	path = dataform-pipeline
+	url = git@github.com:anpag/bq-semantic-graph.git
+[submodule "ontology-ui"]
+	path = ontology-ui
+	url = git@github.com:anpag/semantic-ontology-ui.git
+[submodule "infrastructure"]
+	path = infrastructure
+	url = git@github.com:anpag/semantic-platform-infra.git
+[submodule "reasoning-engine"]
+	path = reasoning-engine
+	url = git@github.com:anpag/ontology-reasoning-engine.git
