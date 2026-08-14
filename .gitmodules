@@ -1,15 +1,15 @@
 [submodule "extraction-agents"]
 	path = extraction-agents
-	url = git@github.com:anpag/semantic-extraction-agents.git
+	url = git@github.com:anpag/neuro-symbolic-extraction-agents.git
 [submodule "dataform-pipeline"]
 	path = dataform-pipeline
-	url = git@github.com:anpag/bq-semantic-graph.git
+	url = git@github.com:anpag/neuro-symbolic-dataform-pipeline.git
 [submodule "ontology-ui"]
 	path = ontology-ui
-	url = git@github.com:anpag/semantic-ontology-ui.git
+	url = git@github.com:anpag/neuro-symbolic-ontology-ui.git
 [submodule "infrastructure"]
 	path = infrastructure
-	url = git@github.com:anpag/semantic-platform-infra.git
+	url = git@github.com:anpag/neuro-symbolic-platform-infra.git
 [submodule "reasoning-engine"]
 	path = reasoning-engine
-	url = git@github.com:anpag/ontology-reasoning-engine.git
+	url = git@github.com:anpag/neuro-symbolic-reasoning-engine.git

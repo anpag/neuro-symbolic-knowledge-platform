@@ -1,4 +1,4 @@
-# Isomorph: The Deterministic Semantic Suite
+# Neuro-Symbolic Knowledge Platform
 > *A deterministic, mathematically-grounded neuro-symbolic platform bridging Generative AI and Enterprise Knowledge Graphs.*
 
 ---
@@ -23,7 +23,7 @@ In GEB, Hofstadter introduces the **MIU-system**—a toy formal system governed 
 
 Decades later, the artificial intelligence industry faces this exact Hofstadterian dilemma with Large Language Models. Modern LLMs are masterful symbol manipulators—statistical engines that excel at syntactic fluency. However, without a formal axiomatic anchor, they are ungrounded. In formal logic terms, **a hallucination is simply a topological violation of an isomorphism.**
 
-The **Semantic Knowledge Hub** was created to restore this isomorphism. It marries the intuitive, unstructured semantic synthesis of LLMs with the deterministic mathematical rigidity of **Formal Ontologies and Description Logics**.
+The **Neuro-Symbolic Knowledge Platform** was created to restore this isomorphism. It marries the intuitive, unstructured semantic synthesis of LLMs with the deterministic mathematical rigidity of **Formal Ontologies and Description Logics**.
 
 ---
 
@@ -61,7 +61,7 @@ In an OWL 2 DL ontology, knowledge is split into:
 ### The Open World vs. Closed World Tension
 Classic Semantic Web tooling operates under the **Open World Assumption (OWA)**: the absence of a statement does not imply it is false, merely unknown. While ideal for distributed scientific discovery, enterprise data analytics requires the **Closed World Assumption (CWA)**—if an extracted fact violates known schema constraints, it must be rejected. 
 
-SKH resolves this tension by utilizing **SHACL (Shapes Constraint Language)** converted into **Relational Set Operations** within high-scale analytical databases.
+The platform resolves this tension by utilizing **SHACL (Shapes Constraint Language)** converted into **Relational Set Operations** within high-scale analytical databases.
 
 ---
 
@@ -80,8 +80,8 @@ Modern enterprise AI pipelines attempt to solve factual grounding using **Vector
 * Vector search cannot detect if an extracted dosage violates the formal range of an active pharmaceutical ingredient.
 * Vector search cannot prevent an LLM from inventing a non-existent relationship edge between two valid entity nodes.
 
-### The SKH Mathematical Paradigm
-Rather than asking an LLM to "verify" its own output, SKH treats ontology validation as a **pure relational algebra problem**:
+### The Platform's Mathematical Paradigm
+Rather than asking an LLM to "verify" its own output, the platform treats ontology validation as a **pure relational algebra problem**:
 
 1. **Meta-Graph Materialization:** The ontology ($\text{TBox}$) is pre-compiled into an empty directed graph of valid topological paths:
    $$\mathcal{G}_{\text{meta}} = \langle \mathcal{C}, \mathcal{R} \rangle \quad \text{where } (C_i, r, C_j) \in \mathcal{R} \iff \text{Domain}(r) = C_i \land \text{Range}(r) = C_j$$
@@ -109,7 +109,7 @@ In standard RDF, attaching metadata (like a confidence score or unit of measurem
 ```
 
 ### The Labeled Property Graph (LPG) Solution
-SKH synthesizes extracted knowledge directly into a **Virtual Labeled Property Graph** using ISO GQL standard schemas in Google BigQuery. Properties live directly on the edges:
+The platform synthesizes extracted knowledge directly into a **Virtual Labeled Property Graph** using ISO GQL standard schemas in Google BigQuery. Properties live directly on the edges:
 
 ```mermaid
 graph LR
@@ -125,7 +125,7 @@ This ensures downstream ISO GQL path traversals execute with maximum relational 
 The platform is structured into five cohesive microservices linked as Git submodules:
 
 ```
-semantic-knowledge-hub/
+neuro-symbolic-knowledge-platform/
 ├── extraction-agents/     ──► LangGraph AI extraction multi-agent pipeline
 ├── dataform-pipeline/     ──► BigQuery Dataform SQLX Relational SHACL Engine
 ├── ontology-ui/           ──► Angular 18 progressive Cytoscape visualizer
@@ -184,8 +184,8 @@ flowchart TD
 
 ### Cloning with All Submodules
 ```bash
-git clone --recursive git@github.com:anpag/isomorph-semantic-suite.git
-cd isomorph-semantic-suite
+git clone --recursive git@github.com:anpag/neuro-symbolic-knowledge-platform.git
+cd neuro-symbolic-knowledge-platform
 ```
 
 If you have already cloned without submodules:

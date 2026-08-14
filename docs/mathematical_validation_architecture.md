@@ -3,7 +3,7 @@
 ## 1. Executive Summary
 In high-stakes enterprise domains (e.g., pharmaceutical CMC, aerospace, regulatory compliance), standard generative AI extraction pipelines fail due to non-deterministic hallucinations. While Large Language Models excel at semantic extraction from ambiguous natural language, they cannot be trusted to self-police their own output against formal ontological axioms.
 
-The **Semantic Knowledge Hub** decouples extraction from validation:
+The **Neuro-Symbolic Knowledge Platform** decouples extraction from validation:
 1. **Extraction (Stochastic):** Generative AI agents extract candidate assertions without schema gating.
 2. **Validation (Deterministic):** BigQuery executes relational set joins against a pre-materialized **Meta-Graph**, enforcing SHACL topological constraints with 100% mathematical precision.
 
