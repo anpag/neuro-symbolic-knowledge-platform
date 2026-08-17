@@ -155,19 +155,19 @@ flowchart TD
 
 ### Submodule Descriptions
 
-1. **[`extraction-agents/`](./extraction-agents)**
+1. **[`extraction-agents/`](https://github.com/anpag/neuro-symbolic-extraction-agents)**
    * **Stack:** Python 3.11, LangGraph, Vertex AI (`gemini-3.5-flash`).
    * **Role:** Map-reduce fan-out agent that slices documents, contextualizes sections with relevant ontology slices, and outputs structured candidate triples.
-2. **[`dataform-pipeline/`](./dataform-pipeline)**
+2. **[`dataform-pipeline/`](https://github.com/anpag/neuro-symbolic-dataform-pipeline)**
    * **Stack:** Google Cloud Dataform, SQLX, BigQuery ISO GQL.
    * **Role:** Executes Rule 1 (Vocabulary Check) and Rule 2 (Topological Check) in SQL, compiling the final `enterprise_knowledge_graph`.
-3. **[`ontology-ui/`](./ontology-ui)**
+3. **[`ontology-ui/`](https://github.com/anpag/neuro-symbolic-ontology-ui)**
    * **Stack:** Angular 18, Angular Material, Cytoscape.js.
    * **Role:** Ultra-fast progressive loading visualizer (`getRoots()`, `expandNode()`) capable of exploring 100,000+ nodes without DOM latency.
-4. **[`infrastructure/`](./infrastructure)**
+4. **[`infrastructure/`](https://github.com/anpag/neuro-symbolic-platform-infra)**
    * **Stack:** HashiCorp Terraform.
    * **Role:** Declarative IaC provisioning Cloud Run, Eventarc, Pub/Sub topics, IAM Service Accounts, and BigQuery datasets.
-5. **[`reasoning-engine/`](./reasoning-engine)**
+5. **[`reasoning-engine/`](https://github.com/anpag/neuro-symbolic-reasoning-engine)**
    * **Stack:** Rust (`cargo`), Memory-safe Parallel Graph Traversal.
    * **Role:** Ultra-fast offline ontology reasoning engine built to parse massive enterprise OWL files and materialize all valid topological paths in milliseconds.
 
